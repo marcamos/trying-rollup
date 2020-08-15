@@ -1,11 +1,12 @@
 {
   "name": "@marcamos/trying-rollup",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "DO NOT INSTALL – I'm trying to learn rollup + npm publishing, etc.",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --config"
+    "clean": "rm -rf dist",
+    "build": "npm run clean && rollup --config"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/marcamos/trying-rollup#readme",
   "devDependencies": {
-    "rollup": "^2.25.0"
+    "rollup": "^2.25.0",
+    "rollup-plugin-terser": "^7.0.0"
   }
 }
