@@ -1,0 +1,24 @@
+{
+  "name": "@marcamos/trying-rollup",
+  "version": "1.0.1",
+  "description": "DO NOT INSTALL – I'm trying to learn rollup + npm publishing, etc.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marcamos@github.com/marcamos/trying-rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcamos/trying-rollup/issues"
+  },
+  "homepage": "https://github.com/marcamos/trying-rollup#readme",
+  "devDependencies": {
+    "rollup": "^2.25.0"
+  }
+}
