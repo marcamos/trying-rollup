@@ -1,6 +1,6 @@
 {
   "name": "@marcamos/trying-rollup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DO NOT INSTALL – I'm trying to learn rollup + npm publishing, etc.",
   "main": "dist/index.js",
   "scripts": {
